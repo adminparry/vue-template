@@ -1,0 +1,35 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "description": "## install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config vue.rv.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://adminparry@github.com/adminparry/vue-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adminparry/vue-template/issues"
+  },
+  "homepage": "https://github.com/adminparry/vue-template#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.3.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.0",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
