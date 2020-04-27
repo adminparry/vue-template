@@ -16,7 +16,7 @@ Vue.use(Router)
 
 // expose Router Instance 
 const RouterInstance = new Router({
-  mode: 'history',
+  mode: 'hash',
   scrollBehavior: () => ({ y: 0 }),
   base: process.env.BASE_URL,
   routes: routers
